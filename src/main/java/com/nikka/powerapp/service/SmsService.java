@@ -30,8 +30,8 @@ public class SmsService {
 
 
         BasicAWSCredentials awsCredentials = new BasicAWSCredentials(
-                "AKIAVTVSGBXKSGFM3SNL",
-                "5hC0rGui0VJtA2xr6XW1wSC8E2fn3Yxfir4AgG1v");
+                "",
+                "");
 
         AmazonSNS snsClient = AmazonSNSClientBuilder
                 .standard()
